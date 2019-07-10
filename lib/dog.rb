@@ -1,10 +1,9 @@
 cclass Dog 
-  attr_accessor :name, :breed
+  attr_accessor :name
   @@all = []
   
   def initialize(name)
     @name= name 
-    @breed = breed
     @@all << self 
   end 
   
