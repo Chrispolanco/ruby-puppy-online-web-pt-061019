@@ -1,4 +1,4 @@
-cclass Dog 
+class Dog 
   attr_accessor :name
   @@all = []
   
@@ -14,6 +14,7 @@ cclass Dog
   def self.print_all
     @@all.map do |dog|
       dog.name
+    end 
   end
 
   def self.clear_all
